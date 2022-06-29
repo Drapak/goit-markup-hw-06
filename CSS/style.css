@@ -505,9 +505,8 @@ margin-left: 0;
 
 .subscribe label {
     width: 358px;
- 
+    margin-left: 93px;
 }
-
 .subscribe-title {
     display: block;
     font-size: 14px;
@@ -517,7 +516,6 @@ margin-left: 0;
     margin-bottom: 20px;
     margin-left: 93px;
 }
-
 .footer .email-field {
     color: var(--primary-bg-color--);
     width: 358px;
@@ -525,11 +523,7 @@ margin-left: 0;
     padding: 15px 16px;
     border-radius: 4px;
     border: var(--footer-mail-border--);
-    filter: drop-shadow(var(--footer-mail-filter--));
     background-color: var(--footer-background-color--);
-}
-.email-field {
-   margin-left: 93px;
 }
 
 .subscribe-button {
@@ -549,7 +543,7 @@ margin-left: 0;
     background-color: var(--accent-text-color--);
     box-shadow: var(--primary-box-shadow--);
     cursor: pointer;
-    margin-left: 110px;
+    margin-left: 12px;
 }
 
 .send-icon {
@@ -811,6 +805,9 @@ font-size: 14px;
 
 .input-chek:checked+.chek-text .chek-icon {
    fill: #FFFFFF;
+}
+.input-chek:focus + .chek-text span {
+    border-color: var(--accent-text-color--);
 }
 .submit-button {
     align-self: center;
